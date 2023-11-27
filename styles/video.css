@@ -46,3 +46,13 @@
     column-gap: 16px;
     row-gap: 40px;
 }
+
+.hamburger-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.youtube-logo{
+    height: 20px;
+}

@@ -1,5 +1,18 @@
 .search-bar{
-    display: block;
+flex: 1;
+height: 34px;
+padding-left: 10px;
+font-size: 16x;
+border-width: 1px;
+border-style: solid;
+border-color: rgb(168, 166, 166);
+box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+
+
+.search-bar::placeholder{
+    font-family: Roboto, Arial ;
+    font-size: 16px;
 }
 
 .header{
@@ -10,19 +23,30 @@
 }
 
 .left-section{
-    background-color: lightblue;
-    width: 200px;
+    align-items: center;
+    display: flex;
 }
 
 .middle-section{
-    background-color: lightpink;
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
+    display: flex;
+    align-items: center;
 }
 
 .right-section{
     background-color: lightblue;
     width: 200px;
+}
+
+.search-button{
+    height: 40px;
+    width: 60px;
+}
+
+.voice-search-button{
+    height: 40px;
+    width: 40px;
 }
